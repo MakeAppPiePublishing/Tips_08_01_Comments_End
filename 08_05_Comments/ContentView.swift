@@ -9,7 +9,7 @@
 import SwiftUI
 
 struct ContentView: View {
-    var moreLights = Lightba
+   // var moreLights = Lightba
      @State var lights:LightBank = LightBank(count:4,on:.allOn)
     var body: some View {
         VStack{
